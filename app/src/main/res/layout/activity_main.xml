@@ -13,18 +13,6 @@
         android:layout_height="wrap_content"
         app:tabMode="scrollable"
         >
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab_layout_analysis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="a"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tab_layout_setting"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="b"/>
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
@@ -32,5 +20,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+
 </LinearLayout>
 
